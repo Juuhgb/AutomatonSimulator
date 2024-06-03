@@ -15,21 +15,25 @@ Esta ferramenta é projetada para simular um autômato finito determinístico (D
         {"from": 1, "read": "b", "to": 0}
     ]
 }
+```
 
 ### Arquivo CSV de Entrada (ex1_input.csv)
-
-ba;1
-aaaabbbbbaaaaa;1
-abababab;0
-bbbbbbbb;0
-aaaaaaaaaaaa;0
-aaaaabaaaaa;1
+```csv
+ba
+aaaabbbbbaaaaa
+abababab
+bbbbbbbb
+aaaaaaaaaaaa
+aaaaabaaaaa
+```
 
 ### Resultado (saida_output.csv)
 
+```csv
 ba;1;1;0.00000420
 aaaabbbbbaaaaa;1;1;0.00000380
 abababab;0;0;0.00000160
 bbbbbbbb;0;0;0.00000170
 aaaaaaaaaaaa;0;0;0.00000210
 aaaaabaaaaa;1;1;0.00000190
+```
